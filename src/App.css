@@ -1,0 +1,66 @@
+.heading{
+  color: rgb(137, 192, 34);
+}
+
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input{
+  height: 1.3rem;
+  width: 28vw;
+  padding: 0.4rem;
+  border: none;
+  margin-right: 1rem;
+}
+
+.button{
+  border: 1px solid rgb(137, 192, 34) ;
+  border-radius: 10px;
+  padding: 0.3rem;
+  background-color: rgb(137, 192, 34);
+}
+
+ol{
+  margin-top: 10vh;
+  margin-left: -12vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+li{
+  list-style: none;
+  font-size: 1.5rem;
+  margin-bottom: 0.4rem;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(137, 192, 34) ;
+  padding: 1.3rem;
+  width: 30vh;
+  margin: 1rem;
+}
+
+.card .button{
+  margin-right: 1rem;
+}
+
+.complete .button{
+  display: none;
+}
+
+@media screen and (max-width:750px) {
+  .card{
+    width: 25vh;
+  }
+  .input{
+    width: 40vw;
+  }
+}
+
